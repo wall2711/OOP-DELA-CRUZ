@@ -1,5 +1,5 @@
 <?php
-    require_once "medicine.php";
+    require_once "Medicine.php";
     require_once "Cart.php";
 ?>
 
@@ -38,5 +38,6 @@
         $cart->viewCart();
         $cart->computeTotal();
     ?>
+
 </body>
 </html>
